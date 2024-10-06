@@ -1,0 +1,245 @@
+/*CSS Document*/
+
+body {
+    background-image: linear-gradient(150deg, #324ad1 , #1d7ca8 30%,#002cf1 );
+  }
+  
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#header div ul li {
+    float: left;
+    list-style: none;
+}
+
+
+
+#nav {
+    margin-left:60%;
+}
+
+#nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #bb1818;
+    width: 160px;
+    line-height: 60px;
+    height: 60px;
+    transition: 0.5s background-color;
+}
+
+#nav ul li a:hover {
+    background-color: #8f0d0d;
+    box-shadow: inset 0px 0px 5px 2px #000;
+}
+
+#logo {
+    padding-bottom: 60px;
+    position: absolute;
+    width: 100%;
+    background-color: #fafafa;
+    z-index: -1;
+}
+
+#active a {
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+#active2 a {
+    border-left: 3px soild white;
+}
+
+#nav ul ul {
+    position: absolute;
+    width: 200px;
+    z-index: 99;
+}
+
+#nav ul ul li {
+    display: none;
+}
+
+#nav ul li:hover ul li {
+    display: block;
+}
+
+#nav ul ul li a {
+    border-bottom: 2px solid rgb(255, 0, 0);
+    background-color: #002a85;
+    display: inline-block;
+    padding: 0px;
+    width: 160px;
+    text-align: center;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 600px;
+  position: absolute;
+  margin: auto;
+  top: 15%;
+  margin-left: 40%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -42px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 3 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-top:40%;
+  left: 30%;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.img_defic {
+  float: right;
+  width: 15%;
+}
+
+.pos_cent {
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  top: 15%;
+  background-color:  linear-gradient(150deg, #324ad1 , #1d7ca8 30%,#002cf1 );
+  padding: 40px;
+}
+.img_defic1 {
+  float: right;
+  width: 15%;
+}
+
+.pos_cent1 {
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  top: 58%;
+  background-color:  linear-gradient(150deg, #324ad1 , #1d7ca8 30%,#002cf1 );
+  padding: 40px;
+}
+.img_defic2 {
+  float: right;
+  width: 15%;
+}
+
+.pos_cent2 {
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  top: 115%;
+  background-color:  linear-gradient(150deg, #324ad1 , #1d7ca8 30%,#002cf1 );
+  padding: 40px;
+}
+.txt {
+  width: 1100px;
+  height: 400px;
+  font-size: xxx-large;
+}
+.title {
+  width: 500px;
+  height: 400px;
+  font-size: xxx-large;
+  margin-left: 40%;
+}
+.txt1 {
+  width:1000px;
+  height: 300px;
+  font-size: x-large;
+
+
+}
+.pic {
+  width: 500px;
+  margin-top: 25%;
+  margin-left: 65%;
+}
+.txt2 {
+  width:1100px;
+  height: 300px;
+  font-size: xxx-large;
+  margin-top: -50%;
+
+}
+.txt3 {
+  width:1100px;
+  height: 300px;
+  font-size: xx-large;
+  margin-top: -15%;
+
+}
